@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaHub</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff4500;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        h2 {
+            color: #ff4500;
+        }
+        .manga-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .manga-item {
+            background-color: #222;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+        .manga-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #222;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to MangaHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Latest Manga</h2>
+        <p>Discover the newest manga releases!</p>
+        <div class="manga-gallery">
+            <div class="manga-item">
+                <img src="manga1.jpg" alt="Manga 1">
+                <p>Title: Manga One</p>
+            </div>
+            <div class="manga-item">
+                <img src="manga2.jpg" alt="Manga 2">
+                <p>Title: Manga Two</p>
+            </div>
+            <div class="manga-item">
+                <img src="manga3.jpg" alt="Manga 3">
+                <p>Title: Manga Three</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories">
+        <h2>Categories</h2>
+        <p>Explore manga by genre.</p>
+    </section>
+
+    <section id="popular">
+        <h2>Popular Manga</h2>
+        <p>See what’s trending now.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MangaHub</p>
+    </footer>
+</body>
+</html>
